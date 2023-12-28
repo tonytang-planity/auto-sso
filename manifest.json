@@ -2,11 +2,11 @@
   "manifest_version": 3,
   "name": "Auto-sso",
   "description": "Sign in sso automatically",
-  "version": "1.0",
+  "version": "2.0",
   "content_scripts": [
     {
       "js": ["scripts/auto-sso.js"],
-      "matches": ["TODO: paste URL here"]
+      "matches": ["TODO: paste sso URL here", "TODO: paste device check URL here"]
     }
   ]
 }
