@@ -6,7 +6,7 @@
   "content_scripts": [
     {
       "js": ["scripts/auto-sso.js"],
-      "matches": ["TODO: paste sso URL here", "TODO: paste device check URL here"]
+      "matches": ["SSO_URL/*", "DEVICE_URL/*"]
     }
   ]
 }
