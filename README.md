@@ -11,6 +11,6 @@ We need a way to make it faster.
 Make a chrome extension to validate the form automatically for us.
 
 1. clone the repository
-2. Replace `TODO: paste sso URL here` inside the [manifest.json](manifest.json) file by your sso URL and add `/*` at the end. If the url is `https://myssourl`, you should have `https://myssourl/*`.
-3. Replace `TODO: paste device check URL here` inside the [manifest.json](manifest.json) file by your device check URL and add `/*` at the end. If the url is `https://mydeviceurl`, you should have `https://mydeviceurl/*`.
+2. Replace `SSO_URL` inside the [manifest.json](manifest.json) & the [auto-sso.js](scripts/auto-sso.js) files by your sso URL (without last slash `/`). Ex: `https://device.sso.xx-xxxx-x.amazonaws.com`
+3. Replace `DEVICE_URL` inside the [manifest.json](manifest.json) & the [auto-sso.js](scripts/auto-sso.js) files by your device check URL (without last slash `/`). Ex: `https://x-xxxxxxxxxx.awsapps.com/start`
 4. Follow the instructions to create an extension (until step 2) : https://support.google.com/chrome/a/answer/2714278?hl=en
