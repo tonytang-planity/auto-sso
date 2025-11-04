@@ -6,7 +6,7 @@
   "content_scripts": [
     {
       "js": ["scripts/auto-sso.js"],
-      "matches": ["SSO_URL/*", "DEVICE_URL/*"]
+      "matches": ["https://SSO_URL/*"]
     }
   ]
 }
